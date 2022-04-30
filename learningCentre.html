@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="arthub_layout.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artHubLearningCentre</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float:left;
+          width: 50%;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+    </style>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column1 {
+          float: left;
+          width: 140px;
+          padding: 10px;
+        }
+        
+        /* Clear floats after the columns */
+        .row1:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+</head>
+<body>
+    <h1 class="routerLink" href = "file:///U:/ArtHub_code/arthub.html">ArtHub</h1>
+    <div class = "pre-search-input-box">
+        <input type="text" id = "visualSearchInput" class="pre-search-input headline" name ="search" autocomplete="off" data-var= "vsInput" tabindex="0" placeholder="Search" aria-label="Search products" role="combobox" aria-expanded="false">
+        <button class = "pre-search-btn" data-var="vsButton" aria-label="Open Search Modal" data-search-closed-label="Search" data-search-open-label="Open Search Modal">
+            <svg class="pre-search-input-icon "fill="#111" height = "30px" width = "30px" viewBox = "0 0 24 24">
+                <path d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"></path>
+            </svg>
+        </button>
+    </div>
+    <center><h2 class="heading1">Learning Centre</h2></center>
+    <div class="row1">
+        <div class="column1">
+          <a aria-current="page" href="#">Artist's Club</a>
+        </div>
+        <div class="column1" style="font-weight: bold;">
+          <a>Learning Centre</a>
+        </div>
+        <div class="column1">
+          <a aria-current="page" href="#">Shop</a>
+        </div>
+      </div>
+    <hr/>
+    <div class="block-columns" style="margin-top:1%;margin-bottom:1%;padding-top:1%;padding-right:1%;padding-bottom:1%;padding-left:1%">
+        <figure><h3 class="heading2">Introductory Sessions</h3></figure>
+        <div class="row">
+            <div class="column">
+              <figure>
+                    <a href="https://www.youtube.com/watch?v=0RmGV5wALG0" >
+                      <img src="https://img.youtube.com/vi/0RmGV5wALG0/maxresdefault.jpg" alt="introductory-1" class="block-embed_wrapper">
+                    </a>
+                    <i class="fas fa-download"><img src="U:\ArtHub_code\Media\Icons\link-1.png"  width="30px"></i>
+              </figure>
+            </div>
+            <div class="column">
+                <figure >
+                    <a href="https://www.youtube.com/watch?v=iwRa5qTnr8o">
+                        <img src="https://img.youtube.com/vi/iwRa5qTnr8o/maxresdefault.jpg" alt="introductory-2" class="block-embed_wrapper">
+                    </a>
+                </figure>
+            </div>
+        </div>
+        <figure><h3 class="heading2">For Juniors</h3></figure>
+        <div class="row">
+            <div class="column">
+                <figure >
+                    <a href="https://www.youtube.com/watch?v=35rju_APLqQ">
+                        <img src="https://img.youtube.com/vi/35rju_APLqQ/maxresdefault.jpg" alt="Junior-1" class="block-embed_wrapper">
+                    </a>
+                </figure>
+            </div>
+            <div class="column">
+                <figure >
+                    <a href="https://www.youtube.com/watch?v=XwByi3_RM5I">
+                        <img src="https://img.youtube.com/vi/XwByi3_RM5I/maxresdefault.jpg" alt="Junior-2" class="block-embed_wrapper">
+                    </a>
+                </figure>
+            </div>
+        </div>
+        <figure><h3 class="heading2">Advanced Sessions</h3></figure>
+        <div class="row">
+            <div class="column">
+                <figure >
+                    <a href="https://www.youtube.com/watch?v=necASIgSt5A">
+                        <img src="https://img.youtube.com/vi/necASIgSt5A/maxresdefault.jpg" alt="Senior-1" class="block-embed_wrapper">
+                    </a>
+                </figure>
+            </div>
+            <div class="column">
+                <figure >
+                    <a href="https://www.youtube.com/watch?v=5JuzIdfXwCY">
+                        <img src="https://img.youtube.com/vi/5JuzIdfXwCY/maxresdefault.jpg" alt="Senior-2" class="block-embed_wrapper">
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="socials">
+        <h3>OUR SOCIAL NETWORKS</h3>
+        <div class="social-icons">
+          <img
+            class="social-icon"
+            src="./Media/icons/facebook-icon.png"
+            alt="Facebook"
+          />
+          <img
+            class="social-icon"
+            src="./Media/icons/twitter-icon.png"
+            alt="Twitter"
+          />
+          <img
+            class="social-icon"
+            src="./Media/icons/instagram-icon.png"
+            alt="Instagram"
+          />
+          <img
+            class="social-icon"
+            src="./Media/icons/pintrest-icon.png"
+            alt="Pintrest"
+          />
+          <img
+            class="social-icon"
+            src="./Media/icons/youtube-icon.png"
+            alt="Youtube"
+          />
+        </div>
+      </div>
+</body>
+<footer>
+    <div>
+      <div class="footer-content">
+        <div class="footer-collumn">
+          <h5>WORLD OF DIGITAL ART</h5>
+          <ul>
+            <li>Trending Artists</li>
+            <li>Featured art</li>
+            <li>Become an Artist</li>
+            <li>Shop Digital Artwork</li>
+            <li>Learning Centre</li>
+          </ul>
+        </div>
+        <div class="footer-collumn">
+          <h5>ENGAGE MORE</h5>
+          <ul>
+            <li>About us</li>
+            <li>Careers</li>
+            <li>Press/Media</li>
+          </ul>
+        </div>
+        <div class="footer-collumn">
+          <h5>PRIVACY & LEGAL</h5>
+          <ul>
+            <li>Cookies & Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="footer-collumn">
+          <h5>HELP & INFORMATION</h5>
+          <ul>
+            <li>Contact Us</li>
+            <li>FAQs</li>
+            <li>Complaints Process</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© ArtHub 2022</p>
+    </div>
+  </footer>
+</html>
